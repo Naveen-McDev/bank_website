@@ -2,8 +2,10 @@ import { card } from "../assets";
 import styles, { layout } from "../style";
 import Button from "./Button";
 
+// cardDeal component
 const CardDeal = () => (
   <section className={layout.section}>
+    {/* left */}
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
         Find a better card deal <br className="sm:block hidden" /> in few easy
@@ -16,7 +18,7 @@ const CardDeal = () => (
 
       <Button styles={`mt-10`} />
     </div>
-
+    {/* right */}
     <div className={layout.sectionImg}>
       <img src={card} alt="billing" className="w-[100%] h-[100%]" />
     </div>

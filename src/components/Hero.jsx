@@ -3,6 +3,7 @@ import styles from "../style";
 import { discount, robot } from "../assets";
 import GetStarted from "./GetStarted";
 
+// hero component
 const Hero = () => {
   return (
     <section
